@@ -1,6 +1,6 @@
 const parseCode = (str) => {
   // your code here
-	 let [firstname,lastname,id] = str.split("000");
+	 let [firstname,lastname,id] = str.split("00");
 
 		console.log(firstname);
 		console.log(lastname);
